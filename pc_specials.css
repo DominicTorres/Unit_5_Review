@@ -23,7 +23,11 @@ body{
 
 
 /* Image Styles */
-
+/*step5*/
+img{
+   display: block;
+   width: 100%;
+}
 
 
 /* Horizontal Navigation Styles */
