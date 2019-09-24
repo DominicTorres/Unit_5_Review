@@ -40,7 +40,9 @@ body>header>nav.horizontal li{
 }
 
 /*step 7*/
-
+body>header>nav.horizontal a:link{
+   display: block;
+}
 
 
 /* Row Styles */
