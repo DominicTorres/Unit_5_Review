@@ -32,6 +32,12 @@ img{
 
 /* Horizontal Navigation Styles */
 
+/*step 6*/
+body>header>nav.horizontalNavigation li{
+   display: block;
+   float: left;
+   width: 16.66%;
+}
 
 
 /* Row Styles */
