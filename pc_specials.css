@@ -63,8 +63,9 @@ body>header>nav.horizontal a:link{
 /* Column Styles */
 
 /*step9*/
-div.col-{
+div [class^="col"]{
    padding: 2%;
+   float: left;
    box-sizing: border-box;
 }
 
@@ -102,7 +103,39 @@ div.specials{
 
 /* Award Styles */
 
+div#awardList{
+   position: relative;
+   height: 650px;
+   overflow: auto;
+}
+div#awardList>div.awards{
+   position: absolute;
+   width: 30%;
+}
+div#award1{
+   top: 80px;
+   left: 5%;
+}
+div#award2{
+   top: 280px;
+   left: 60%;
+}
+div#award3{
+   top: 400px;
+   left: 20%;
+}
+div#award4{
+   top: 630px;
+   left: 45%;
+}
+div#award5{
+   top: 750px;
+   left: 5%;
+}
 
 
 /* Footer Styles */
+footer{
+   clear: both;
+}
 
