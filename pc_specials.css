@@ -92,6 +92,12 @@ div.col-3-4{
 
 /* Specials Styles */
 
+/*step 11*/
+div.specials{
+   min-height: 400px;
+   outline-style: dashed;
+   color: rgb(71, 52, 29);
+}
 
 
 /* Award Styles */
