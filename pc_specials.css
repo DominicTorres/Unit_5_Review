@@ -46,7 +46,17 @@ body>header>nav.horizontal a:link{
 
 
 /* Row Styles */
-
+/*step 8*/
+.newrow div{
+   width: 100%;
+   clear: both;
+}
+/*step8*/
+.newrow div::after{
+   clear: both;
+   content: "";
+   display: table;
+}
 
 
 
